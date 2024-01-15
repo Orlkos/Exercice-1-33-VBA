@@ -1,0 +1,12 @@
+Sub Absolu()
+'
+' Absolu Macro
+'
+
+'
+    Range("A3").Select
+    ActiveCell.FormulaR1C1 = "5"
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "12"
+    
+End Sub
